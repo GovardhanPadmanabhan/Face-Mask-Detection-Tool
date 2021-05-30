@@ -36,9 +36,9 @@ The images have been categorized into two classes (or folders):
 
 The following are sample images from the dataset used here:  
 
-![Input #1](/repo_images/input_1.png)  
-![Input #2](/repo_images/input_2.png)  
-![Input #3](/repo_images/input_3.png)  
+![Input #1](/repo_images/input_1.jpg)  
+![Input #2](/repo_images/input_2.jpg)  
+![Input #3](/repo_images/input_3.jpg)  
 
 
 
