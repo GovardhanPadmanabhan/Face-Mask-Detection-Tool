@@ -25,9 +25,9 @@ The model architecture used here is represented in this image:
 
 ## Notebooks
 
-```(1) Train & Evaluate Model.ipynb``` is the notebook used to build, train and test the model for classification.  
+**```(1) Train & Evaluate Model.ipynb```** is the notebook used to build, train and test the model for classification.  
 
-```(2) Using Pre-Trained Model.ipynb``` notebook uses the pre-trained model to run individual predictions on any image
+**```(2) Using Pre-Trained Model.ipynb```** notebook uses the pre-trained model to run individual predictions on any image
 
 
 
