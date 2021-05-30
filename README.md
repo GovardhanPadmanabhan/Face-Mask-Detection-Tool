@@ -40,6 +40,7 @@ The change in the model's training and validation accuracy for each epoch is rep
 ![Accuracy](/repo_images/model_accuracy.png)  
 
 The following images are examples showing the model classifying images of people with and without masks:  
+
 ![Output #1](/repo_images/output_1.png)  
 ![Output #2](/repo_images/output_2.png)  
 ![Output #3](/repo_images/output_3.png)  
