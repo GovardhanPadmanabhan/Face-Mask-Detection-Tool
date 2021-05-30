@@ -38,3 +38,12 @@ The change in the model's training and validation loss for each epoch is represe
 
 The change in the model's training and validation accuracy for each epoch is represented in this image:  
 ![Accuracy](/repo_images/model_accuracy.png)  
+
+The following images are examples showing the model classifying images of people with and without masks:  
+![Output #1](/repo_images/output_1.png)  
+![Output #2](/repo_images/output_2.png)  
+![Output #3](/repo_images/output_3.png)  
+
+As evident from the images, the model works fairly accurate, and works as intended.  
+
+In output example 3, the model also correctly classifies the image of the person not wearing mask properly, as one without masks.
