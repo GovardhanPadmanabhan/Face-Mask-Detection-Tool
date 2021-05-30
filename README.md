@@ -21,6 +21,25 @@ The model architecture used here is represented in this image:
 
 ## Data
 
+**`img_data.zip`** is the zip file of images used for training and validating the model.
+
+It's made up of nearly 10K images from [Real-World Masked Face Dataset](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset), [MaskedFace-Net](https://github.com/cabani/MaskedFace-Net), and some random images from [Google Images](https://www.google.com/imghp).
+
+Due to data cap and internet connectivity issues, only a portion of the datasets were used. This resulted in only images of disposable surgical masks being used here in the dataset. Additionally, to reduce model complexity and training times, the images have been resized to 70x70.
+
+
+The images have been categorized into two classes (or folders):
+
+`with`:  5011 images of people properly wearing disposable surgical face-masks  
+`without`:  5003 images of people without any masks, and people improperly wearing face-masks  
+
+
+The following are sample images from the dataset used here:  
+
+![Input #1](/repo_images/input_1.png)  
+![Input #2](/repo_images/input_2.png)  
+![Input #3](/repo_images/input_3.png)  
+
 
 
 ## Notebooks
