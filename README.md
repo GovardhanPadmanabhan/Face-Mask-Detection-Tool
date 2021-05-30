@@ -7,7 +7,7 @@ The model was also evaluated, and it's loss and accuracy were recorded.
 
 
 
-# Model
+## Model
 
 CNN model using Keras is used here.  
 
@@ -19,12 +19,22 @@ The model architecture used here is represented in this image:
 
 
 
-# Data
+## Data
 
 
 
-# Notebooks
+## Notebooks
 
 ```(1) Train & Evaluate Model.ipynb``` is the notebook used to build, train and test the model for classification.  
 
 ```(2) Using Pre-Trained Model.ipynb``` notebook uses the pre-trained model to run individual predictions on any image
+
+
+
+## Output
+
+The change in the model's training and validation loss for each epoch is represented in this image:  
+![Loss](/repo_images/model_loss.png)  
+
+The change in the model's training and validation accuracy for each epoch is represented in this image:  
+![Accuracy](/repo_images/model_accuracy.png)  
