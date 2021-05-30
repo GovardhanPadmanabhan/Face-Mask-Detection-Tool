@@ -36,9 +36,7 @@ The images have been categorized into two classes (or folders):
 
 The following are sample images from the dataset used here:  
 
-![Input #1](/repo_images/input_1.png)  
-![Input #2](/repo_images/input_2.png)  
-![Input #3](/repo_images/input_3.png)  
+![Input #1](/repo_images/input_1.jpg)  ![Input #2](/repo_images/input_2.jpg)  ![Input #3](/repo_images/input_3.jpg)  
 
 
 
@@ -60,9 +58,7 @@ The change in the model's training and validation accuracy for each epoch is rep
 
 The following images are examples showing the model classifying images of people with and without masks:  
 
-![Output #1](/repo_images/output_1.png)  
-![Output #2](/repo_images/output_2.png)  
-![Output #3](/repo_images/output_3.png)  
+![Output #1](/repo_images/output_1.png)  ![Output #2](/repo_images/output_2.png)  ![Output #3](/repo_images/output_3.png)  
 
 As evident from the images, the model works fairly accurate, and works as intended.  
 
