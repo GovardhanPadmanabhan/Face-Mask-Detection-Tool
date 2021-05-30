@@ -21,13 +21,32 @@ The model architecture used here is represented in this image:
 
 ## Data
 
+**`img_data.zip`** is the zip file of images used for training and validating the model.
+
+It's made up of nearly 10K images from [Real-World Masked Face Dataset](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset), [MaskedFace-Net](https://github.com/cabani/MaskedFace-Net), and some random images from [Google Images](https://www.google.com/imghp).
+
+*Due to data cap and internet connectivity issues, only a portion of the datasets were used. This resulted in only images of disposable surgical masks being used here in the dataset. Additionally, to reduce model complexity and training times, the images have been resized to 70x70.*
+
+
+The images have been categorized into two classes (or folders):
+
+`with`:  5011 images of people properly wearing disposable surgical face-masks  
+`without`:  5003 images of people without any masks, and people improperly wearing face-masks  
+
+
+The following are sample images from the dataset used here:  
+
+![Input #1](/repo_images/input_1.png)  
+![Input #2](/repo_images/input_2.png)  
+![Input #3](/repo_images/input_3.png)  
+
 
 
 ## Notebooks
 
-```(1) Train & Evaluate Model.ipynb``` is the notebook used to build, train and test the model for classification.  
+**```(1) Train & Evaluate Model.ipynb```** is the notebook used to build, train and test the model for classification.  
 
-```(2) Using Pre-Trained Model.ipynb``` notebook uses the pre-trained model to run individual predictions on any image
+**```(2) Using Pre-Trained Model.ipynb```** notebook uses the pre-trained model to run individual predictions on any image
 
 
 
@@ -40,6 +59,7 @@ The change in the model's training and validation accuracy for each epoch is rep
 ![Accuracy](/repo_images/model_accuracy.png)  
 
 The following images are examples showing the model classifying images of people with and without masks:  
+
 ![Output #1](/repo_images/output_1.png)  
 ![Output #2](/repo_images/output_2.png)  
 ![Output #3](/repo_images/output_3.png)  
