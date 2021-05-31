@@ -3,7 +3,7 @@ This project is the submission for the individual assignment for WIX3001: Soft C
 
 This project trains a model to classify images of single people into ones with face-masks and ones without. Additionaly, if people do not wear masks properly, those images are also classified as people without masks.
 
-The model was also evaluated, and it's loss and accuracy were recorded.  
+The model was also evaluated, and its loss and accuracy were recorded.  
 
 
 
